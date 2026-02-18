@@ -36,33 +36,22 @@ All analyses are reproducible and clearly documented.
 
 ## 📁 Project Structure
 
-📂 data-analysis-notebooks/
-# Repository Structure
-
 | Folder/File | Description |
 |-------------|-------------|
 | 📂 data-analysis-notebooks/ | Root repository |
-| ├── 📄 README.md | Main repo README |
-| ├── 📄 requirements.txt | Python dependencies with exact versions |
 | ├── 📂 Anomalies-Detection/ | Sensor analysis notebook project |
-| │ ├── 📄 sensor-signals-analysis.ipynb | Jupyter notebook for sensor data analysis |
-| │ ├── 📄 README.md | Mini README for this project |
-| │ └── 📂 images/ | Folder for plots/figures |
-| │     └── 🖼 dtw_pca_plot.png | Example plot from notebook |
+| │ ├── 📂 Resources/ | Folder where data is stored |
+| │ └── 📄 sensor-signals-analysis.ipynb | Jupyter notebook for sensor data analysis |
 | ├── 📂 network_analysis/ | Network exploration notebook project |
-| │ ├── 📄 network_analysis.ipynb | Jupyter notebook for network analysis |
-| │ ├── 📄 README.md | Mini README for this project |
-| │ └── 📂 images/ | Folder for plots/figures |
-| │     └── 🖼 network_plot.png | Example network visualization |
+| │ ├── 📂 Resources/ | Folder where data is stored |
+| │ └── 📄 network_analysis.ipynb | Jupyter notebook for network analysis |
 | ├── 📂 recommender_systems/ | Recommender systems notebook project |
-| │ ├── 📄 recommender_systems.ipynb | Jupyter notebook for recommendation analysis |
-| │ ├── 📄 README.md | Mini README for this project |
-| │ └── 📂 images/ | Folder for plots/figures |
-| │     └── 🖼 recommender_plot.png | Example recommendation plot |
-| └── .gitignore | Ignore venv, __pycache__, and notebook checkpoints |
-
-
-
+| │ ├── 📂 Resources/ | Folder where data is stored |
+| │ └── 📄 recommender_systems.ipynb | Jupyter notebook for recommendation analysis |
+| ├── .gitignore | Ignore venv, __pycache__, and notebook checkpoints |
+| ├── 📄 README.md | Main repo README |
+| └── 📄 requirements.txt | Python dependencies with exact versions |
+ 
 - Each folder contains a single notebook, its resources and predictions made from the given algorightms.  
 - Notebooks are **self-contained** and can be executed independently.
 
@@ -147,7 +136,7 @@ Recommender systems, matrix factorization, similarity search, applied ML for con
 ## 🚀 How to Run
 
 1. Clone the repo
-2. Create a virtual environment using bash:
+2. Create a virtual environment using **bash**:
    ```bash
    python -m venv venv
    source venv/Scripts/activate  # or venv\Scripts\activate in cmd
